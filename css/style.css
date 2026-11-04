@@ -20,6 +20,17 @@ main {
 	flex: 1;
 }
 
+/* Hero section */
+.hero {
+	display: flex;
+	align-items: center;
+	min-height: 280px;
+	color: #ffffff;
+	background-image:url("../images/hero_image.jpg");
+	background-size: cover;
+  background-position: center top;
+}
+
 /* Responsive images */
 img {
 	display: block;
