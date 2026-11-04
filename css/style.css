@@ -290,7 +290,12 @@ background-position: center top;
     color: #777287;
 }
 
-
+/* Services grid */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
 
 /* Site footer */
 .site-footer {
