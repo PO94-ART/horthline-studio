@@ -417,6 +417,82 @@ body.menu-is-open {
 	
 }
 
+/* Contact page introduction */
+.contact-intro {
+	padding: 70px 0;
+	text-align: center;
+	background-color: #fff7fa;
+}
+
+.contact-intro h1 {
+	font-size: 42px;
+	color: #17152b;
+	margin-bottom: 15px;
+}
+
+.contact-intro p {
+	max-width: 650px;
+	margin: 0 auto;
+	line-height: 1.7;
+}
+
+/* Contact information */
+.contact-information {
+	padding: 70px 0;
+}
+
+.contact-information h2 {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 40px;
+	color: #17152b;
+}
+
+.contact-details {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 25px;
+}
+
+.contact-details > div {
+	background-color: #fff7fa;
+	padding: 30px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.contact-details i {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 15px;
+    font-size: 18px;
+    color: #17152b;
+    background-color: #ffd166;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    place-items: center;
+}
+	
+
+.contact-details h3 {
+	color: #17152b;
+	margin-bottom: 10px;
+}
+
+.contact-details p {
+	line-height: 1.6;
+}
+
+.contact-details a {
+	color: #4c3cff;
+	text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
 /* Site footer */
 .site-footer {
 	padding-top: 48px;
@@ -568,9 +644,22 @@ body.menu-is-open {
     font-size: 26px;
 	}
 
+
 	.service-grid {
     grid-template-columns: repeat(3, 1fr);
 }
+
+	.contact-details {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	
+
+
+
+	.contact-intro h1 {
+		font-size: 34px;
+	}
 
 	.footer-layout {
 		flex-direction: row;
