@@ -645,6 +645,203 @@ body.menu-is-open {
     background-color: #3828d6;
 }
 
+
+/* About Hero section */
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+  color: #ffffff;
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+.about-hero-content {
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-hero h1 {
+  max-width: 750px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.about-hero p {
+  max-width: 850px;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+/* Who We Are section */
+
+.who-we-are {
+  padding-top: 55px;
+  padding-bottom: 35px;
+  background-color: #fff7fa;
+}
+
+.who-we-are-container {
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.who-we-are-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.who-we-are-content {
+  padding-top: 30px;
+}
+
+.who-we-are-content h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.who-we-are-content p {
+  line-height: 1.6;
+}
+
+.who-we-are-content > p:last-child,
+.our-mission-content > p:last-child,
+.value-card > p:last-child,
+.introduction-content > p:last-child,
+.contact-intro .container > p:last-child{
+	color: #777287;
+}
+
+/* Our Mission section */
+
+.our-mission {
+  padding: 35px 0;
+  background-color: #fff7fa;
+  text-align: center;
+}
+
+.our-mission-content {
+  width: 90%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-mission-content h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.our-mission-content p {
+  line-height: 1.6;
+}
+
+
+/* Our Values section */
+
+.our-values {
+  padding: 45px 0;
+  background-color: #fff7fa;
+}
+
+.our-values-container {
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-values-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.our-values-heading h2 {
+  margin-top: 0;
+}
+
+.value-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.value-card {
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.value-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.value-card p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* Get in Touch section */
+
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+  padding: 35px 0;
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: #ffffff;
+  text-align: center;
+}
+
+.get-in-touch-content {
+  width: 90%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-in-touch-content h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.get-in-touch-content p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.get-in-touch .button {
+  display: inline-block;
+  padding: 10px 18px;
+  color: #ffffff;
+  background-color: #4c3cff;
+  border-radius: 7px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.get-in-touch .button:hover,
+.get-in-touch .button:focus-visible {
+  background-color: #3828d6;
+}
+
 /* Site footer */
 .site-footer {
 	padding-top: 48px;
@@ -799,7 +996,7 @@ body.menu-is-open {
 
 	.service-grid {
     grid-template-columns: repeat(3, 1fr);
-}
+	}
 
 	.service-item {
 		flex-direction: row;
@@ -816,11 +1013,11 @@ body.menu-is-open {
 
 	.service-item:nth-child(2) {
   flex-direction: row;
-}
+	}
 
 	.service-item:nth-child(2) img {
   order: -1;
-}
+	}
 
 	.contact-details {
 		grid-template-columns: repeat(2, 1fr);
@@ -832,7 +1029,43 @@ body.menu-is-open {
 
 	.form-grid {
     grid-template-columns: repeat(2, 1fr);
-}
+	}
+
+	.about-hero {
+  min-height: 320px;
+	}
+
+	.about-hero h1 {
+  font-size: 40px;
+	}
+
+	.who-we-are-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+	}
+
+	.who-we-are-image,
+	.who-we-are-content {
+		width: 50%;
+	}
+
+	.who-we-are-content {
+		padding-top: 0;
+	}
+
+	.value-cards {
+  flex-direction: row;
+  gap: 25px;
+	}
+
+	.value-card {
+		flex: 1;
+	}
+	
+	.get-in-touch {
+  min-height: 320px;
+	}
 
 	.footer-layout {
 		flex-direction: row;
